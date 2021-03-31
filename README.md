@@ -13,3 +13,5 @@ As formas 3D escolhidas para a implementação, são:
  - Esfera;
  - Prisma Hexagonal;
  - Octaedro Regular. 
+
+Disciplina de Tópicos Avançados em Programação Orientada a Objetos ministrada pelo Prof. Dr. Maurício Acconcia Dias, 11º período do curso de Engenharia da Computação noturno, FHO - Fundação Hermínio Ometto.
