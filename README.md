@@ -1,2 +1,15 @@
-# ExercicioProgramacao_aula02 
- Implementação de uma classe que calcula questões relativas a figuras geométricas, para a disciplina Tópicos Avançados em Programação Orientada a Objetos  da FHO - Fundação Hermínio Ometto.
+# Exercício de Programação (Aula 2) – Tópicos Avançados em Programação Orientada a Objetos
+
+Consiste na implementação de uma classe que calcula questões relativas a figuras geométricas 2D e 3D. O algoritmo foi desenvolvido com a utilização de heranças, polimorfismos, objetos e classes.
+
+As formas 2D escolhidas para a implementação, são:
+ - Retângulo;
+ - Circulo;
+ - Triangulo;
+ - Hexágono Regular.
+
+As formas 3D escolhidas para a implementação, são:
+ - Paralelepípedo;
+ - Esfera;
+ - Prisma Hexagonal;
+ - Octaedro Regular. 
