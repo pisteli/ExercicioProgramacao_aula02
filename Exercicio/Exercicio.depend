@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1617166815 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\main.cpp
+	"Retangulo.hpp"
+	"Circulo.hpp"
+	"Triangulo.hpp"
+	"Hexagono.hpp"
+	"Paralelepipedo.hpp"
+	<iostream>
+
+1617157126 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\retangulo.cpp
+	"retangulo.hpp"
+
+1617156841 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\retangulo.hpp
+
+1617161388 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\retangulo.hpp
+
+1617161568 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\retangulo.cpp
+	"Retangulo.hpp"
+	<math.h>
+
+1617162754 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\circulo.cpp
+	"Circulo.hpp"
+	<math.h>
+
+1617162290 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\circulo.hpp
+
+1617165027 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\triangulo.cpp
+	"Triangulo.hpp"
+	<math.h>
+
+1617163250 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\triangulo.hpp
+
+1617165279 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\hexagono.hpp
+
+1617165575 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\hexagono.cpp
+	"Hexagono.hpp"
+	<math.h>
+
+1617166605 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\paralelepipedo.cpp
+	"Paralelepipedo.hpp"
+	<math.h>
+
+1617166035 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\paralelepipedo.hpp
+
+1617167413 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\esfera.cpp
+	"Esfera.hpp"
+
+1617167170 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\esfera.hpp
+
