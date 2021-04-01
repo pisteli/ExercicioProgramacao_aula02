@@ -1,6 +1,10 @@
 #ifndef ESFERA_HPP
 #define ESFERA_HPP
 
+#include <iostream>
+
+using namespace std;
+
 class Esfera
 {
     public:
@@ -9,6 +13,7 @@ class Esfera
         float getRaio();
         float area();
         float volume();
+        friend ostream& operator<<(ostream& os, Esfera &e);
         virtual ~Esfera();
 
     private:

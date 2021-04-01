@@ -59,6 +59,15 @@ float Paralelepipedo::diagonal()
     return sqrt(pow(this->base,2) + pow(this->largura,2) + pow(this->altura,2));
 }
 
+ostream& operator<<(ostream& os, Paralelepipedo &p){
+    os<< "\nParalelepipedo " << endl
+      << "\tArea Base: " << p.areaBase() << endl
+      << "\tArea Total: " << p.areaTotal() << endl
+      << "\tVolume: " << p.volume() << endl
+      << "\tDiagonal: " << p.diagonal() << endl;
+    return os;
+}
+
 Paralelepipedo::~Paralelepipedo()
 {
     //dtor

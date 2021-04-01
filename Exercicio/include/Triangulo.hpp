@@ -1,6 +1,10 @@
 #ifndef TRIANGULO_HPP
 #define TRIANGULO_HPP
 
+#include <iostream>
+
+using namespace std;
+
 class Triangulo
 {
     public:
@@ -11,6 +15,7 @@ class Triangulo
         float getAltura();
         float area();
         float perimetro();
+        friend ostream& operator<<(ostream& os, Triangulo &t);
         virtual ~Triangulo();
 
     private:

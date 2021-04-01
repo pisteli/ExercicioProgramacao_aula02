@@ -25,6 +25,13 @@ float Esfera::volume()
     return (4 * 3.1415927 * this->raio * this->raio)/3;
 }
 
+ostream& operator<<(ostream& os, Esfera &e){
+    os<< "\nEsfera " << endl
+      << "\tArea: " << e.area() << endl
+      << "\tVolume: " << e.volume() << endl;
+    return os;
+}
+
 Esfera::~Esfera()
 {
     //dtor

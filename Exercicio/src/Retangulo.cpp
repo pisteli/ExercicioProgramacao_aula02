@@ -41,6 +41,14 @@ float Retangulo::diagonal()
     return sqrt(pow(this->base,2)+pow(this->altura,2));
 }
 
+ostream& operator<<(ostream& os, Retangulo &r){
+    os<< "Retangulo " << endl
+      << "\tArea: " << r.area() << endl
+      << "\tPerimetro: " << r.perimetro() << endl
+      << "\tDiagonal: " << r.diagonal() << endl;
+    return os;
+}
+
 Retangulo::~Retangulo()
 {
     //dtor

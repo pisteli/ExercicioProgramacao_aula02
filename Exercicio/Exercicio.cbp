@@ -37,14 +37,18 @@
 		<Unit filename="include/Circulo.hpp" />
 		<Unit filename="include/Esfera.hpp" />
 		<Unit filename="include/Hexagono.hpp" />
+		<Unit filename="include/Octaedro.hpp" />
 		<Unit filename="include/Paralelepipedo.hpp" />
+		<Unit filename="include/PrismaHexagonal.hpp" />
 		<Unit filename="include/Retangulo.hpp" />
 		<Unit filename="include/Triangulo.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Circulo.cpp" />
 		<Unit filename="src/Esfera.cpp" />
 		<Unit filename="src/Hexagono.cpp" />
+		<Unit filename="src/Octaedro.cpp" />
 		<Unit filename="src/Paralelepipedo.cpp" />
+		<Unit filename="src/PrismaHexagonal.cpp" />
 		<Unit filename="src/Retangulo.cpp" />
 		<Unit filename="src/Triangulo.cpp" />
 		<Extensions>

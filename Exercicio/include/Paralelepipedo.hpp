@@ -1,6 +1,10 @@
 #ifndef PARALELEPIPEDO_HPP
 #define PARALELEPIPEDO_HPP
 
+#include <iostream>
+
+using namespace std;
+
 class Paralelepipedo
 {
     public:
@@ -15,6 +19,7 @@ class Paralelepipedo
         float areaTotal();
         float volume();
         float diagonal();
+        friend ostream& operator<<(ostream& os, Paralelepipedo &p);
         virtual ~Paralelepipedo();
 
     private:

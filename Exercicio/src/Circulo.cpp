@@ -26,6 +26,13 @@ float Circulo::perimetro()
     return 2 * 3.1415927 * this->raio;
 }
 
+ostream& operator<<(ostream& os, Circulo &c){
+    os<< "\nCirculo " << endl
+      << "\tArea: " << c.area() << endl
+      << "\tPerimetro: " << c.perimetro() << endl;
+    return os;
+}
+
 Circulo::~Circulo()
 {
     //dtor

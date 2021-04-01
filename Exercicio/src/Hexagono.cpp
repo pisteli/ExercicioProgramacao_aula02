@@ -27,6 +27,13 @@ float Hexagono::perimetro()
     return this->aresta * 6;
 }
 
+ostream& operator<<(ostream& os, Hexagono &h){
+    os<< "\nHexagono " << endl
+      << "\tArea: " << h.area() << endl
+      << "\tPerimetro: " << h.perimetro() << endl;
+    return os;
+}
+
 Hexagono::~Hexagono()
 {
     //dtor

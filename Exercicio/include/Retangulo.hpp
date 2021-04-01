@@ -1,6 +1,10 @@
 #ifndef RETANGULO_HPP
 #define RETANGULO_HPP
 
+#include <iostream>
+
+using namespace std;
+
 class Retangulo
 {
     public:
@@ -12,6 +16,7 @@ class Retangulo
         float area();
         float perimetro();
         float diagonal();
+        friend ostream& operator<<(ostream& os, Retangulo &r);
         virtual ~Retangulo();
 
     private:

@@ -1,6 +1,9 @@
 #ifndef CIRCULO_HPP
 #define CIRCULO_HPP
 
+#include <iostream>
+
+using namespace std;
 
 class Circulo
 {
@@ -10,6 +13,7 @@ class Circulo
         float getRaio();
         float area();
         float perimetro();
+        friend ostream& operator<<(ostream& os, Circulo &c);
         virtual ~Circulo();
 
     private:

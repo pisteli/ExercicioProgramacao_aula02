@@ -1,6 +1,10 @@
 #ifndef HEXAGONO_HPP
 #define HEXAGONO_HPP
 
+#include <iostream>
+
+using namespace std;
+
 class Hexagono
 {
     public:
@@ -9,6 +13,7 @@ class Hexagono
         float getAresta();
         float area();
         float perimetro();
+        friend ostream& operator<<(ostream& os, Hexagono &h);
         virtual ~Hexagono();
 
     private:

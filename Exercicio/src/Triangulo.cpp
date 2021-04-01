@@ -42,6 +42,13 @@ float Triangulo::perimetro()
     return this->altura + this->base + c;
 }
 
+ostream& operator<<(ostream& os, Triangulo &t){
+    os<< "\nTriangulo " << endl
+      << "\tArea: " << t.area() << endl
+      << "\tPerimetro: " << t.perimetro() << endl;
+    return os;
+}
+
 Triangulo::~Triangulo()
 {
     //dtor
