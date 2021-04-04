@@ -2,32 +2,24 @@
 
 Esfera::Esfera()
 {
-    this->raio = 0.0;
+    setAltura(0.0);
+    setLargura(0.0);
 }
 
-void Esfera::setRaio(float raio)
+float Esfera::areaTotal()
 {
-    this->raio = raio;
-}
-
-float Esfera::getRaio()
-{
-    return this->raio;
-}
-
-float Esfera::area()
-{
-    return 4 * 3.1415927 * this->raio * this->raio;
+    // Base sera utilizada como raio
+    return 4 * 3.1415927 * getBase() * getBase();
 }
 
 float Esfera::volume()
 {
-    return (4 * 3.1415927 * this->raio * this->raio)/3;
+    return (4 * 3.1415927 * getBase() * getBase())/3;
 }
 
 ostream& operator<<(ostream& os, Esfera &e){
     os<< "\nEsfera " << endl
-      << "\tArea: " << e.area() << endl
+      << "\tArea: " << e.areaTotal() << endl
       << "\tVolume: " << e.volume() << endl;
     return os;
 }

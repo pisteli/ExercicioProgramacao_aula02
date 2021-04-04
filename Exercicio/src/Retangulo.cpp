@@ -1,44 +1,24 @@
 #include "Retangulo.hpp"
 #include <math.h>
 
-Retangulo::Retangulo(){
-    this->base = 0.0;
-    this->altura = 0.0;
-}
-
-void Retangulo::setBase(float base)
+Retangulo::Retangulo()
 {
-    this->base = base;
-}
-
-float Retangulo::getBase()
-{
-    return this->base;
-}
-
-void Retangulo::setAltura(float altura)
-{
-    this->altura = altura;
-}
-
-float Retangulo::getAltura()
-{
-    return this->altura;
+    //ctor
 }
 
 float Retangulo::area()
 {
-    return this->base * this->altura;
+    return getBase() * getLargura();
 }
 
 float Retangulo::perimetro()
 {
-    return 2*(this->base+this->altura);
+    return 2*(getBase()+getLargura());
 }
 
 float Retangulo::diagonal()
 {
-    return sqrt(pow(this->base,2)+pow(this->altura,2));
+    return sqrt(pow(getBase(),2)+pow(getLargura(),2));
 }
 
 ostream& operator<<(ostream& os, Retangulo &r){

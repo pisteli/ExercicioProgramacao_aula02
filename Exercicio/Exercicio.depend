@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1617247801 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\main.cpp
+1617504177 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\main.cpp
 	"Retangulo.hpp"
 	"Circulo.hpp"
 	"Triangulo.hpp"
@@ -15,58 +15,76 @@
 
 1617156841 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\retangulo.hpp
 
-1617245575 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\retangulo.hpp
+1617501099 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\retangulo.hpp
+	"Formas2D.hpp"
 	<iostream>
 
-1617247750 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\retangulo.cpp
+1617501021 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\retangulo.cpp
 	"Retangulo.hpp"
 	<math.h>
 
-1617247863 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\circulo.cpp
+1617502209 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\circulo.cpp
 	"Circulo.hpp"
 	<math.h>
 
-1617245599 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\circulo.hpp
+1617502102 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\circulo.hpp
 	<iostream>
+	"Formas2D.hpp"
 
-1617247829 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\triangulo.cpp
+1617502398 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\triangulo.cpp
 	"Triangulo.hpp"
 	<math.h>
 
-1617245589 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\triangulo.hpp
+1617502320 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\triangulo.hpp
 	<iostream>
+	"Formas2D.hpp"
 
-1617245599 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\hexagono.hpp
+1617502526 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\hexagono.hpp
 	<iostream>
+	"Formas2D.hpp"
 
-1617247896 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\hexagono.cpp
+1617502566 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\hexagono.cpp
 	"Hexagono.hpp"
 	<math.h>
 
-1617247544 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\paralelepipedo.cpp
+1617503143 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\paralelepipedo.cpp
 	"Paralelepipedo.hpp"
 	<math.h>
 
-1617245527 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\paralelepipedo.hpp
+1617502942 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\paralelepipedo.hpp
 	<iostream>
+	"Formas3D.hpp"
 
-1617247880 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\esfera.cpp
+1617503389 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\esfera.cpp
 	"Esfera.hpp"
 
-1617242455 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\esfera.hpp
+1617503372 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\esfera.hpp
 	<iostream>
+	"Formas3D.hpp"
 
-1617247652 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\prismahexagonal.cpp
+1617503653 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\prismahexagonal.cpp
 	"PrismaHexagonal.hpp"
 	"Hexagono.hpp"
 
-1617245599 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\prismahexagonal.hpp
+1617503528 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\prismahexagonal.hpp
 	<iostream>
+	"Formas3D.hpp"
 
-1617247916 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\octaedro.cpp
+1617503901 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\octaedro.cpp
 	"Octaedro.hpp"
 	<math.h>
 
-1617245285 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\octaedro.hpp
+1617503838 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\octaedro.hpp
 	<iostream>
+	"Formas3D.hpp"
+
+1617495428 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\formas2d.cpp
+	"Formas2D.hpp"
+
+1617497753 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\formas2d.hpp
+
+1617502866 source:c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\src\formas3d.cpp
+	"Formas3D.hpp"
+
+1617502807 c:\users\piste\onedrive\Área de trabalho\ead\11º semestre\1 - tópicos avançados em progr.orientada a objetos\exercicio de programação\exercicioprogramacao_aula02-\exercicio\include\formas3d.hpp
 

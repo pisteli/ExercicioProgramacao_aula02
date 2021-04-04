@@ -2,23 +2,18 @@
 #define CIRCULO_HPP
 
 #include <iostream>
+#include "Formas2D.hpp"
 
 using namespace std;
 
-class Circulo
+class Circulo: public Formas2D
 {
     public:
         Circulo();
-        void setRaio(float raio);
-        float getRaio();
         float area();
         float perimetro();
         friend ostream& operator<<(ostream& os, Circulo &c);
         virtual ~Circulo();
-
-    private:
-        float raio;
-
 };
 
 #endif // CIRCULO_HPP

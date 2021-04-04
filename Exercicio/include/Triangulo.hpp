@@ -2,25 +2,18 @@
 #define TRIANGULO_HPP
 
 #include <iostream>
+#include "Formas2D.hpp"
 
 using namespace std;
 
-class Triangulo
+class Triangulo: public Formas2D
 {
     public:
         Triangulo();
-        void setBase(float base);
-        float getBase();
-        void setAltura(float altura);
-        float getAltura();
         float area();
         float perimetro();
         friend ostream& operator<<(ostream& os, Triangulo &t);
         virtual ~Triangulo();
-
-    private:
-        float base;
-        float altura;
 };
 
 #endif // TRIANGULO_HPP

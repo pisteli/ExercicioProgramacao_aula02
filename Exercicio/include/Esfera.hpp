@@ -2,22 +2,18 @@
 #define ESFERA_HPP
 
 #include <iostream>
+#include "Formas3D.hpp"
 
 using namespace std;
 
-class Esfera
+class Esfera: public Formas3D
 {
     public:
         Esfera();
-        void setRaio(float raio);
-        float getRaio();
-        float area();
+        float areaTotal();
         float volume();
         friend ostream& operator<<(ostream& os, Esfera &e);
         virtual ~Esfera();
-
-    private:
-        float raio;
 };
 
 #endif // ESFERA_HPP

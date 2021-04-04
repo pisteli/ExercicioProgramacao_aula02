@@ -4,42 +4,21 @@
 
 Triangulo::Triangulo()
 {
-    this->base = 0.0;
-    this->altura = 0.0;
-}
-
-void Triangulo::setBase(float base)
-{
-    this->base = base;
-}
-
-float Triangulo::getBase()
-{
-    return this->base;
-}
-
-void Triangulo::setAltura(float altura)
-{
-    this->altura = altura;
-}
-
-float Triangulo::getAltura()
-{
-    return this->altura;
+    //ctor
 }
 
 float Triangulo::area()
 {
-    return (this->base*this->altura)/2;
+    return (getBase()*getLargura())/2;
 }
 
 float Triangulo::perimetro()
 {
     float c;
 
-    c = sqrt(pow(this->base,2)+pow(this->altura,2));
+    c = sqrt(pow(getBase(),2)+pow(getLargura(),2));
 
-    return this->altura + this->base + c;
+    return getBase() + getLargura() + c;
 }
 
 ostream& operator<<(ostream& os, Triangulo &t){

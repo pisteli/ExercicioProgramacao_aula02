@@ -4,27 +4,18 @@
 
 Hexagono::Hexagono()
 {
-    this->aresta = 0.0;
-}
-
-void Hexagono::setAresta(float aresta)
-{
-    this->aresta = aresta;
-}
-
-float Hexagono::getAresta()
-{
-    return this->aresta;
+    setLargura(0.0);
 }
 
 float Hexagono::area()
 {
-    return (3 * pow(this->aresta,2) * sqrt(3))/2;
+    // Atrobuto base sera usado como a aresta
+    return (3 * pow(getBase(),2) * sqrt(3))/2;
 }
 
 float Hexagono::perimetro()
 {
-    return this->aresta * 6;
+    return getBase() * 6;
 }
 
 ostream& operator<<(ostream& os, Hexagono &h){

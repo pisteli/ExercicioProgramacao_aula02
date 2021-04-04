@@ -2,22 +2,18 @@
 #define HEXAGONO_HPP
 
 #include <iostream>
+#include "Formas2D.hpp"
 
 using namespace std;
 
-class Hexagono
+class Hexagono: public Formas2D
 {
     public:
         Hexagono();
-        void setAresta(float aresta);
-        float getAresta();
         float area();
         float perimetro();
         friend ostream& operator<<(ostream& os, Hexagono &h);
         virtual ~Hexagono();
-
-    private:
-        float aresta;
 };
 
 #endif // HEXAGONO_HPP

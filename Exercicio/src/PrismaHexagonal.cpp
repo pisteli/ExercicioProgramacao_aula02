@@ -3,34 +3,15 @@
 
 PrismaHexagonal::PrismaHexagonal()
 {
-    this->aresta = 0.0;
-    this->altura = 0.0;
-}
+    setLargura(0.0);
 
-void PrismaHexagonal::setAresta(float aresta)
-{
-    this->aresta = aresta;
-}
-
-float PrismaHexagonal::getAresta()
-{
-    return this->aresta;
-}
-
-void PrismaHexagonal::setAltura(float altura)
-{
-    this->altura = altura;
-}
-
-float PrismaHexagonal::getAltura()
-{
-    return this->altura;
+    // Atributo base sera usado como aresta
 }
 
 float PrismaHexagonal::areaBase()
 {
     Hexagono h;
-    h.setAresta(this->aresta);
+    h.setBase(getBase());
 
     // Ou retornar assim.
     // return (3 * pow(this->aresta,2) * sqrt(3))/2;
@@ -40,7 +21,7 @@ float PrismaHexagonal::areaBase()
 
 float PrismaHexagonal::areaLateral()
 {
-    return this->aresta * this->altura;
+    return getBase() * getAltura();
 }
 
 float PrismaHexagonal::areaTotal()
@@ -53,7 +34,7 @@ float PrismaHexagonal::areaTotal()
 
 float PrismaHexagonal::volume()
 {
-    return this->areaBase() * this->altura;
+    return this->areaBase() * getAltura();
 
     // Ou usar
     // return (3 * pow(this->aresta,2) * sqrt(3)) * this->altura;

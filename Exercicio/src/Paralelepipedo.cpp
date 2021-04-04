@@ -4,59 +4,27 @@
 
 Paralelepipedo::Paralelepipedo()
 {
-    this->base = 0.0;
-    this->largura = 0.0;
-    this->altura = 0.0;
-}
-
-void Paralelepipedo::setBase(float base)
-{
-    this->base = base;
-}
-
-float Paralelepipedo::getBase()
-{
-    return this->base;
-}
-
-void Paralelepipedo::setLargura(float largura)
-{
-    this->largura = largura;
-}
-
-float Paralelepipedo::getLargura()
-{
-    return this->largura;
-}
-
-void Paralelepipedo::setAltura(float altura)
-{
-    this->altura = altura;
-}
-
-float Paralelepipedo::getAltura()
-{
-    return this->altura;
+    //ctor
 }
 
 float Paralelepipedo::areaBase()
 {
-    return this->base * this->largura;
+    return getBase() * getLargura();
 }
 
 float Paralelepipedo::areaTotal()
 {
-    return 2*this->base*this->largura + 2*this->base*this->altura + 2*this->largura*this->altura;
+    return 2*getBase()*getLargura() + 2*getBase()*getAltura() + 2*getLargura()*getAltura();
 }
 
 float Paralelepipedo::volume()
 {
-    return this->altura*this->base*this->largura;
+    return getAltura()*getBase()*getLargura();
 }
 
 float Paralelepipedo::diagonal()
 {
-    return sqrt(pow(this->base,2) + pow(this->largura,2) + pow(this->altura,2));
+    return sqrt(pow(getBase(),2) + pow(getLargura(),2) + pow(getAltura(),2));
 }
 
 ostream& operator<<(ostream& os, Paralelepipedo &p){

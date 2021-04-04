@@ -4,27 +4,20 @@
 
 Octaedro::Octaedro()
 {
-    this->aresta = 0.0;
-}
+    setLargura(0.0);
+    setAltura(0.0);
 
-void Octaedro::setAresta(float aresta)
-{
-    this->aresta = aresta;
-}
-
-float Octaedro::getAresta()
-{
-    return this->aresta;
+    //Atributo base sera utilisado como aresta
 }
 
 float Octaedro::areaTotal()
 {
-    return 2 * sqrt(3) * pow(this->aresta,2);
+    return 2 * sqrt(3) * pow(getBase(),2);
 }
 
 float Octaedro::volume()
 {
-    return (sqrt(2) * pow(this->aresta,3))/3;
+    return (sqrt(2) * pow(getBase(),3))/3;
 }
 
 ostream& operator<<(ostream& os, Octaedro &o){

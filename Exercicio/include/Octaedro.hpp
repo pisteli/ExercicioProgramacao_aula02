@@ -2,22 +2,18 @@
 #define OCTAEDRO_HPP
 
 #include <iostream>
+#include "Formas3D.hpp"
 
 using namespace std;
 
-class Octaedro
+class Octaedro: public Formas3D
 {
     public:
         Octaedro();
-        void setAresta(float aresta);
-        float getAresta();
         float areaTotal();
         float volume();
         friend ostream& operator<<(ostream& os, Octaedro &o);
         virtual ~Octaedro();
-
-    private:
-        float aresta;
 };
 
 #endif // OCTAEDRO_HPP

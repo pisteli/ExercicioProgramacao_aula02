@@ -36,6 +36,8 @@
 		</Compiler>
 		<Unit filename="include/Circulo.hpp" />
 		<Unit filename="include/Esfera.hpp" />
+		<Unit filename="include/Formas2D.hpp" />
+		<Unit filename="include/Formas3D.hpp" />
 		<Unit filename="include/Hexagono.hpp" />
 		<Unit filename="include/Octaedro.hpp" />
 		<Unit filename="include/Paralelepipedo.hpp" />
@@ -45,6 +47,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Circulo.cpp" />
 		<Unit filename="src/Esfera.cpp" />
+		<Unit filename="src/Formas2D.cpp" />
+		<Unit filename="src/Formas3D.cpp" />
 		<Unit filename="src/Hexagono.cpp" />
 		<Unit filename="src/Octaedro.cpp" />
 		<Unit filename="src/Paralelepipedo.cpp" />

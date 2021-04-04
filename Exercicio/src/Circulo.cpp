@@ -3,27 +3,18 @@
 
 Circulo::Circulo()
 {
-    this->raio = 0.0;
-}
-
-void Circulo::setRaio(float raio)
-{
-    this->raio = raio;
-}
-
-float Circulo::getRaio()
-{
-    return this->raio;
+    setLargura(0.0);
 }
 
 float Circulo::area()
 {
-    return 3.1415927 * pow(this->raio, 2);
+    // O atributo base sera usado como raio.
+    return 3.1415927 * pow(getBase(), 2);
 }
 
 float Circulo::perimetro()
 {
-    return 2 * 3.1415927 * this->raio;
+    return 2 * 3.1415927 * getBase();
 }
 
 ostream& operator<<(ostream& os, Circulo &c){
