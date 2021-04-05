@@ -3,12 +3,12 @@
 
 Circulo::Circulo()
 {
+    // O atributo base sera utilizado como raio.
     setLargura(0.0);
 }
 
 float Circulo::area()
 {
-    // O atributo base sera usado como raio.
     return 3.1415927 * pow(getBase(), 2);
 }
 
@@ -18,7 +18,7 @@ float Circulo::perimetro()
 }
 
 ostream& operator<<(ostream& os, Circulo &c){
-    os<< "\nCirculo " << endl
+    os<< "\n---------- Circulo ----------" << endl
       << "\tArea: " << c.area() << endl
       << "\tPerimetro: " << c.perimetro() << endl;
     return os;

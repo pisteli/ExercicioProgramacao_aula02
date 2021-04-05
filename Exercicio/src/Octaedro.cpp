@@ -4,10 +4,9 @@
 
 Octaedro::Octaedro()
 {
+    // O atributo base sera utilizado como aresta
     setLargura(0.0);
     setAltura(0.0);
-
-    //Atributo base sera utilisado como aresta
 }
 
 float Octaedro::areaTotal()
@@ -21,7 +20,7 @@ float Octaedro::volume()
 }
 
 ostream& operator<<(ostream& os, Octaedro &o){
-    os<< "\nOctaedro Regular " << endl
+    os<< "\n---------- Octaedro Regular ----------" << endl
       << "\tArea Total: " << o.areaTotal() << endl
       << "\tVolume: " << o.volume() << endl;
     return os;

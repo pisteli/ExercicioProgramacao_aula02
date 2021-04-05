@@ -3,9 +3,8 @@
 
 PrismaHexagonal::PrismaHexagonal()
 {
+    // O atributo base sera utilizado como aresta
     setLargura(0.0);
-
-    // Atributo base sera usado como aresta
 }
 
 float PrismaHexagonal::areaBase()
@@ -21,12 +20,12 @@ float PrismaHexagonal::areaBase()
 
 float PrismaHexagonal::areaLateral()
 {
-    return getBase() * getAltura();
+    return 6 * getBase() * getAltura();
 }
 
 float PrismaHexagonal::areaTotal()
 {
-    return (6 * this->areaLateral()) + (2 * this->areaBase());
+    return (this->areaLateral()) + (2 * this->areaBase());
 
     // Ou usar
     // return (6 * this->aresta * this->altura) + (2 * ((3 * pow(this->aresta,2) * sqrt(3))/2));
@@ -41,7 +40,7 @@ float PrismaHexagonal::volume()
 }
 
 ostream& operator<<(ostream& os, PrismaHexagonal &ph){
-    os<< "\nPrisma Hexagonal " << endl
+    os<< "\n---------- Prisma Hexagonal ----------" << endl
       << "\tArea Base: " << ph.areaBase() << endl
       << "\tArea Lateral: " << ph.areaLateral() << endl
       << "\tArea Total: " << ph.areaTotal() << endl

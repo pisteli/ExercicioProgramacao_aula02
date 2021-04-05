@@ -6,14 +6,14 @@
 
 using namespace std;
 
-class Circulo: public Formas2D
+class Circulo: public Formas2D                                  // Herança da classe Formas2D
 {
     public:
-        Circulo();
-        float area();
-        float perimetro();
-        friend ostream& operator<<(ostream& os, Circulo &c);
-        virtual ~Circulo();
+        Circulo();                                              // Construtor
+        float area();                                           // Método para retornar a area
+        float perimetro();                                      // Método para retornar o perimetro
+        friend ostream& operator<<(ostream& os, Circulo &c);    // Sobrecarga do operador <<
+        virtual ~Circulo();                                     // Destrutor
 };
 
 #endif // CIRCULO_HPP

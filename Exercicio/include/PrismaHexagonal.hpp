@@ -6,16 +6,16 @@
 
 using namespace std;
 
-class PrismaHexagonal: public Formas3D
+class PrismaHexagonal: public Formas3D                                  // Herança da classe Formas3D
 {
     public:
-        PrismaHexagonal();
-        float areaBase();
-        float areaLateral();
-        float areaTotal();
-        float volume();
-        friend ostream& operator<<(ostream& os, PrismaHexagonal &ph);
-        virtual ~PrismaHexagonal();
+        PrismaHexagonal();                                              // Construtor
+        float areaBase();                                               // Método para retornar a area da Base
+        float areaLateral();                                            // Método para retornar a area lateral
+        float areaTotal();                                              // Método para retornar a area total
+        float volume();                                                 // Método para retornar o volume
+        friend ostream& operator<<(ostream& os, PrismaHexagonal &ph);   // Sobrecarga do operador <<
+        virtual ~PrismaHexagonal();                                     // Destrutor
 };
 
 #endif // PRISMAHEXAGONAL_HPP

@@ -22,7 +22,7 @@ float Triangulo::perimetro()
 }
 
 ostream& operator<<(ostream& os, Triangulo &t){
-    os<< "\nTriangulo " << endl
+    os<< "\n---------- Triangulo Retangulo ----------" << endl
       << "\tArea: " << t.area() << endl
       << "\tPerimetro: " << t.perimetro() << endl;
     return os;

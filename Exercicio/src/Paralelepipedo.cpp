@@ -28,7 +28,7 @@ float Paralelepipedo::diagonal()
 }
 
 ostream& operator<<(ostream& os, Paralelepipedo &p){
-    os<< "\nParalelepipedo " << endl
+    os<< "\n---------- Paralelepipedo ----------" << endl
       << "\tArea Base: " << p.areaBase() << endl
       << "\tArea Total: " << p.areaTotal() << endl
       << "\tVolume: " << p.volume() << endl

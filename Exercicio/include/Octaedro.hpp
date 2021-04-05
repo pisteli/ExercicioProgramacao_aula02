@@ -6,14 +6,14 @@
 
 using namespace std;
 
-class Octaedro: public Formas3D
+class Octaedro: public Formas3D                                 // Herança da classe Formas3D
 {
     public:
-        Octaedro();
-        float areaTotal();
-        float volume();
-        friend ostream& operator<<(ostream& os, Octaedro &o);
-        virtual ~Octaedro();
+        Octaedro();                                             // Construtor
+        float areaTotal();                                      // Método para retornar a area total
+        float volume();                                         // Método para retornar o volume
+        friend ostream& operator<<(ostream& os, Octaedro &o);   // Sobrecarga do operador <<
+        virtual ~Octaedro();                                    // Destrutor
 };
 
 #endif // OCTAEDRO_HPP

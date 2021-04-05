@@ -6,14 +6,14 @@
 
 using namespace std;
 
-class Hexagono: public Formas2D
+class Hexagono: public Formas2D                                 // Herança da classe Formas2D
 {
     public:
-        Hexagono();
-        float area();
-        float perimetro();
-        friend ostream& operator<<(ostream& os, Hexagono &h);
-        virtual ~Hexagono();
+        Hexagono();                                             // Construtor
+        float area();                                           // Método para retornar a area
+        float perimetro();                                      // Método para retornar o perimetro
+        friend ostream& operator<<(ostream& os, Hexagono &h);   // Sobrecarga do operador <<
+        virtual ~Hexagono();                                    // Destrutor
 };
 
 #endif // HEXAGONO_HPP

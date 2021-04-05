@@ -22,7 +22,7 @@ float Retangulo::diagonal()
 }
 
 ostream& operator<<(ostream& os, Retangulo &r){
-    os<< "Retangulo " << endl
+    os<< "\n---------- Retangulo ----------" << endl
       << "\tArea: " << r.area() << endl
       << "\tPerimetro: " << r.perimetro() << endl
       << "\tDiagonal: " << r.diagonal() << endl;
